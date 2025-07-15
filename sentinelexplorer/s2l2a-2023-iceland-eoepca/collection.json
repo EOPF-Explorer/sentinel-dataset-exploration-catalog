@@ -15,7 +15,7 @@
       "href": "./s2l2a-2023-iceland-eoepca/collection.json",
       "type": "application/json",
       "title": "Sentinel 2 Iceland eoapi EOEPCA subset 2023",
-      "endpointtype": "VEDA_cog",
+      "endpointtype": "VEDA_tiles",
       "id": "s2l2a-2023-iceland-eoepca",
       "themes": [
         "sentinel-2"
