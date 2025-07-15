@@ -1,7 +1,7 @@
 {
   "Name": "s2l2a-2023-iceland-eoepca",
   "Title": "Sentinel 2 Iceland eoapi EOEPCA subset 2023",
-  "Description": "Sentinel-2 L2A data from 2023 over Iceland.",
+  "Description": "Sentinel-2 L2A data from 2023 over Iceland. Originally sourced from https://eoapi.apx.develop.eoepca.org/",
   "Themes": [
     "sentinel-2"
   ],
