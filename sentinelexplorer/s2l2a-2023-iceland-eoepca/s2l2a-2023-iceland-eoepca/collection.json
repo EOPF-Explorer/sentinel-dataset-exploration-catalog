@@ -1,0 +1,76 @@
+{
+  "type": "Collection",
+  "id": "s2l2a-2023-iceland-eoepca",
+  "stac_version": "1.1.0",
+  "description": "Sentinel-2 L2A data from 2023 over Iceland.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "items",
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest",
+      "type": "image/png",
+      "title": "s2l2a-2023-iceland-eoepca"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel 2 Iceland eoapi EOEPCA subset 2023"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/EOPF-Explorer/eodash-assets/main/collections/https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/27/W/VM/2023/10/S2A_27WVM_20231031_0_L2A/thumbnail.jpg",
+  "themes": [
+    "sentinel-2"
+  ],
+  "endpointtype": "VEDA_cog",
+  "title": "Sentinel 2 Iceland eoapi EOEPCA subset 2023",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -27.000430785994133,
+          62.98661631438856,
+          -12.529411751974589,
+          67.41675060830025
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-02-08T13:03:10.549000Z",
+          "2023-11-09T13:33:54.673000Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/EOPF-Explorer/eodash-assets/main/collections/https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/27/W/VM/2023/10/S2A_27WVM_20231031_0_L2A/thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
