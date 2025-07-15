@@ -1,0 +1,17 @@
+{
+  "Name": "s2l2a-2023-iceland-eoepca",
+  "Title": "Sentinel 2 Iceland eoapi EOEPCA subset 2023",
+  "Description": "Sentinel-2 L2A data from 2023 over Iceland.",
+  "Themes": [
+    "sentinel-2"
+  ],
+  "Resources": [
+    {
+      "EndPoint": "https://eoapi.apx.develop.eoepca.org/stac/",
+      "Type": "cog",
+      "Name": "VEDA",
+      "CollectionId": "sentinel-2-iceland"
+    }
+  ],
+  "Image": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/27/W/VM/2023/10/S2A_27WVM_20231031_0_L2A/thumbnail.jpg"
+}

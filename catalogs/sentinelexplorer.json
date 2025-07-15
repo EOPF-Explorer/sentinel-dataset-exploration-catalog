@@ -1,0 +1,12 @@
+{
+    "id": "sentinelexplorer",
+    "title": "Earth Observing Dashboard",
+    "description": "Sentinel 2 dataset exploration catalog",
+    "endpoint": "https://eopf-explorer.github.io/sentinel-dataset-exploration-catalog/sentinelexplorer/",
+    "assets_endpoint": "https://raw.githubusercontent.com/EOPF-Explorer/eodash-assets/main/collections",
+    "default_base_layers": "layers/baselayers",
+    "default_overlay_layers": "layers/overlays",
+    "collections": [
+        "s2l2a-2023-iceland-eoepca"
+    ]
+}
