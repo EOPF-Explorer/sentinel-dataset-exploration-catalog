@@ -29,7 +29,7 @@
       "title": "Sentinel 2 Iceland eoapi EOEPCA subset 2023"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/EOPF-Explorer/eodash-assets/main/collections/https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/27/W/VM/2023/10/S2A_27WVM_20231031_0_L2A/thumbnail.jpg",
+  "thumbnail": "https://raw.githubusercontent.com/EOPF-Explorer/eodash-assets/main/collections/s2l2a-2023-iceland-eoepca/s2l2a-thumbnail.jpg",
   "themes": [
     "sentinel-2"
   ],
@@ -66,7 +66,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/EOPF-Explorer/eodash-assets/main/collections/https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/27/W/VM/2023/10/S2A_27WVM_20231031_0_L2A/thumbnail.jpg",
+      "href": "https://raw.githubusercontent.com/EOPF-Explorer/eodash-assets/main/collections/s2l2a-2023-iceland-eoepca/s2l2a-thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
