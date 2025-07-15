@@ -8,9 +8,14 @@
   "Resources": [
     {
       "EndPoint": "https://eoapi.apx.develop.eoepca.org/stac/",
-      "Type": "cog",
+      "Type": "tiles",
       "Name": "VEDA",
-      "CollectionId": "sentinel-2-iceland"
+      "CollectionId": "sentinel-2-iceland",
+      "Assets": [
+        "red",
+        "green",
+        "blue"
+      ]
     }
   ],
   "Image": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/27/W/VM/2023/10/S2A_27WVM_20231031_0_L2A/thumbnail.jpg"
