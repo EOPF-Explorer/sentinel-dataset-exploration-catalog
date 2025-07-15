@@ -18,7 +18,7 @@
     },
     {
       "rel": "xyz",
-      "href": "https://openveda.cloud/api/raster/collections/sentinel-2-iceland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue",
+      "href": "https://eoapi.apx.develop.eoepca.org/raster/collections/sentinel-2-iceland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue",
       "type": "image/png",
       "title": "s2l2a-2023-iceland-eoepca"
     },
