@@ -1,5 +1,7 @@
 # Catalog holding collection definitions for first use case of 
 
+> **Retired (November 2026).** This catalog is no longer generated or published: the GitHub Actions workflows and the GitHub Pages site were removed, and the repository is archived. The text below is kept for reference.
+
 This repository allows generation of STAC catalogs based on the configuration JSON files provided in the repository.
 The configuration options are described in the [Wiki](https://github.com/eodash/eodash_catalog/wiki).
 
